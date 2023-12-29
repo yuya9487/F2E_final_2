@@ -1,0 +1,314 @@
+* {
+    font-family: 'Noto Sans';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://keedan.com/track/files/2023/09/LINE_ALBUM_20230917OOR-TAIPEI-DAY2_230917_108.jpg); 
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto; 
+  }
+
+.h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #E81D1D;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.p {
+    font-size: 20px;
+    color: #F9F9F9;
+    margin: 0px;
+    font-weight: 800;
+}
+
+.header {
+    background-color: #F9F9F9;
+    height: 80px;
+    line-height:85px;
+    flex-wrap: wrap;
+}
+
+.name{
+    color: #F9F9F9;
+    font-size: 35px;
+}
+
+.w1{
+    color: #F9F9F9;
+    font-size: 20px;
+}
+
+.w2{
+    color: #F9F9F9;
+    font-size: 12px;
+}
+
+/*靠框框右下角*/
+.right_below{
+   margin-top: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 43px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.navagite {
+ text-align: end;
+}
+
+.ul-li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.ul-li:hover {
+    color: #E81D1D;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.naa {
+    color:#000;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.naa:hover {
+    color: #E81D1D;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.naa:visited,.naa:link,.naa:active {
+    text-decoration: none;
+}
+
+.LOGIN_btn{
+    background-color: #E81D1D;
+    height: 50px;
+    width: 100px;
+    color: #F9F9F9;
+    border-radius: 10px;
+    border: 0;
+ }
+
+ .LOGIN_btn:hover{
+    background-color: white; 
+    color: red;
+    border: 3px solid red;
+    opacity: 1;
+    transform: scale(1.1);
+    opacity: 0.9;
+    transition: 0.3s;
+ }
+
+/*.button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: #E81D1D;
+   
+}*/
+
+.div-title1 {
+    width: 300px;
+    height: 84px;
+    border: 8px solid #E81D1D;
+    margin: 80px auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.oorp {
+    width: 65%;
+    height: 65%;
+    display: block;
+    margin: 40px auto;
+}
+
+.p {
+    width:70% ;
+    margin: 80px auto;
+    padding: 10px 100px;
+    text-align: center;
+}
+
+.underbut {
+    display: flex;
+    margin: 30px auto;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb, .ig, .x, .sp, .yt {
+    margin: 5px;
+}
+
+
+.icon{
+    width: 30px;
+    height: 30px;
+ }
+ 
+ footer {
+    margin-top: 200px;
+    height: 120px;
+    flex-shrink: 0;
+    background: rgba(232, 29, 29, 0.50);
+    color: #FFF;
+    position: relative; 
+  }
+ 
+  .F_word{
+    position: absolute;
+    bottom: 0; 
+    left: 40px;
+  }
+ 
+  .buttons_place{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+    margin-right: 120px;
+  }
+ 
+  .img_btn{
+    background:0;
+   height: 50px;
+   width: 30px;
+   color: #F9F9F9;
+   border: 0;
+   margin-left: 10px;
+  }
+ 
+  .img_btn:hover {
+    color: #E81D1D;
+    opacity: 1;
+    transform: scale(1.2);
+    opacity: 0.9;
+    transition: 0.3s;
+ }
+
+
+ /*以下為龜龜新編寫*/
+
+ .mempic{
+    height: 300px;
+    width: 300px;
+ }
+
+ .icon_btn:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    opacity: 0.9;
+    transition: 0.3s;
+ }
+
+ /*控制圖片和蚊子中間的間距*/
+.mempic{
+    margin-right: 40px;
+    box-shadow: -10px 10px 10px 5px #e81d1d7c;
+ }
+
+ .takabox,.torubox, .ryotabox, .tomoyabox{
+    color: #F9F9F9;
+    border: 5px solid #F9F9F9;
+    width: 982px;
+    height: 400px;
+    padding: 30px 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+ }
+
+ /*使名字和假名置於左右*/
+ .names{
+    display: flex;
+    align-items: center;
+ }
+
+ .nameS{
+    margin-top: 20px;
+    margin-left: 5px;
+ }
+
+ .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .H2{
+    color: #F9F9F9;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 24px;
+ }
+
+
+ .title{
+    color: #E81D1D;
+   border: 5px solid #E81D1D ;
+   height: 70px;
+   width: 300px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+ }
+
+ .title_place{
+    display: flex;
+   justify-content: center; 
+   margin-top: 80px;
+   margin-bottom: 60px;
+ }
